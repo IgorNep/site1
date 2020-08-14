@@ -1,0 +1,322 @@
+/*Animate text*/
+
+.offer-list__item.active .offer-list__text_one {
+  animation: showText 2s linear forwards;
+  animation-delay: 0.2s;
+}
+.offer-list__item.active .offer-list__text_two {
+  animation: showText 2s linear forwards;
+  animation-delay: 0.4s;
+}
+.offer-list__item.active .offer-list__text_three {
+  animation: showText 2s linear forwards;
+  animation-delay: 0.6s;
+}
+.offer-list__item.active .offer-list__text_four {
+  animation: showText 2s linear forwards;
+  animation-delay: 0.8s;
+}
+.offer-list__item.active .offer-list__text_five {
+  animation: showText 2s linear forwards;
+  animation-delay: 1s;
+}
+@keyframes showText {
+  0% {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+/* Genereal settings */
+
+.icon {
+  width: 42px;
+}
+.icon path {
+  fill: transparent;
+  stroke-width: 8;
+  stroke: black;
+}
+.icon_x path {
+  stroke-width: 1;
+}
+
+/* Animate event-icon */
+
+.icon.active #ico0 {
+  stroke-dasharray: 1800;
+  stroke-dashoffset: 1800;
+  animation: animate-ico0 4s linear forwards;
+  animation-delay: 0.2s;
+}
+.icon.active #ico1 {
+  stroke-dasharray: 4074;
+  stroke-dashoffset: 4074;
+  animation: animate-ico1 4s linear forwards;
+  animation-delay: 0.2s;
+}
+.icon.active #ico2 {
+  stroke-dasharray: 230;
+  stroke-dashoffset: 230;
+  animation: animate-ico2 4s linear forwards;
+  animation-delay: 0.2s;
+}
+.icon.active #ico3 {
+  stroke-dasharray: 230;
+  stroke-dashoffset: 230;
+  animation: animate-ico3 4s linear forwards;
+  animation-delay: 0.2s;
+}
+.icon.active #ico4 {
+  stroke-dasharray: 230;
+  stroke-dashoffset: 230;
+  animation: animate-ico3 4s linear forwards;
+  animation-delay: 0.2s;
+}
+.icon.active #ico5 {
+  stroke-dasharray: 230;
+  stroke-dashoffset: 230;
+  animation: animate-ico3 4s linear forwards;
+  animation-delay: 0.2s;
+}
+.icon.active #ico6 {
+  stroke-dasharray: 230;
+  stroke-dashoffset: 230;
+  animation: animate-ico3 4s linear forwards;
+  animation-delay: 0.2s;
+}
+.icon.active #ico7 {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  animation: animate-ico3 4s linear forwards;
+  animation-delay: 0.2s;
+}
+.icon.active #ico8 {
+  stroke-dasharray: 320;
+  stroke-dashoffset: 320;
+  animation: animate-ico8 4s linear forwards;
+  animation-delay: 0.2s;
+}
+.icon.active #ico9 {
+  stroke-dasharray: 230;
+  stroke-dashoffset: 230;
+  animation: animate-ico3 4s linear forwards;
+  animation-delay: 0.2s;
+}
+.icon.active #ico10 {
+  stroke-dasharray: 230;
+  stroke-dashoffset: 230;
+  animation: animate-ico3 4s linear forwards;
+  animation-delay: 0.2s;
+}
+.icon.active #ico11 {
+  stroke-dasharray: 230;
+  stroke-dashoffset: 230;
+  animation: animate-ico3 4s linear forwards;
+  animation-delay: 0.2s;
+}
+.icon.active #ico12 {
+  stroke-dasharray: 230;
+  stroke-dashoffset: 230;
+  animation: animate-ico3 4s linear forwards;
+  animation-delay: 0.2s;
+}
+
+@keyframes animate-ico0 {
+  0% {
+    stroke-dashoffset: 1800;
+  }
+  50% {
+    stroke-dashoffset: 900;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: black;
+    stroke: transparent;
+  }
+}
+
+@keyframes animate-ico1 {
+  0% {
+    stroke-dashoffset: 4074;
+  }
+  50% {
+    stroke-dashoffset: 2037;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: black;
+    stroke: transparent;
+  }
+}
+@keyframes animate-ico2 {
+  0% {
+    stroke-dashoffset: 218;
+  }
+  50% {
+    stroke-dashoffset: 109;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: black;
+    stroke: transparent;
+  }
+}
+@keyframes animate-ico3 {
+  0% {
+    stroke-dashoffset: 219;
+  }
+  50% {
+    stroke-dashoffset: 109;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: black;
+    stroke: transparent;
+  }
+}
+@keyframes animate-ico8 {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  50% {
+    stroke-dashoffset: 500;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: black;
+    stroke: transparent;
+  }
+}
+
+/* Animate best-icon */
+.icon.active #best1 {
+  stroke-dasharray: 1700;
+  stroke-dashoffset: 1700;
+  animation: animate-best 4s linear forwards;
+  animation-delay: 0.4s;
+}
+.icon.active #best2 {
+  stroke-dasharray: 1700;
+  stroke-dashoffset: 1700;
+  animation: animate-best 4s linear forwards;
+  animation-delay: 0.4s;
+}
+.icon.active #best3 {
+  stroke-dasharray: 1330;
+  stroke-dashoffset: 1330;
+  animation: animate-best 4s linear forwards;
+  animation-delay: 0.4s;
+}
+
+@keyframes animate-best {
+  0% {
+    stroke-dashoffset: 1700;
+  }
+  50% {
+    stroke-dashoffset: 900;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: black;
+    stroke: transparent;
+  }
+}
+/*animate option icon*/
+.icon.active #opt1,
+#opt2,
+#opt3,
+#opt4,
+#opt5,
+#opt6,
+#opt7,
+#opt8,
+#opt9,
+#opt10,
+#opt11 {
+  stroke-dasharray: 281;
+  stroke-dashoffset: 281;
+  animation: animate-opt1 4s linear forwards;
+  animation-delay: 0.6s;
+}
+.icon.active #opt12 {
+  stroke-dasharray: 2593;
+  stroke-dashoffset: 2593;
+  animation: animate-opt12 4s linear forwards;
+  animation-delay: 0.6s;
+}
+
+@keyframes animate-opt1 {
+  0% {
+    stroke-dashoffset: 281;
+  }
+  50% {
+    stroke-dashoffset: 190;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: black;
+    stroke: transparent;
+  }
+}
+@keyframes animate-opt12 {
+  0% {
+    stroke-dashoffset: 2593;
+  }
+  50% {
+    stroke-dashoffset: 1300;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: black;
+    stroke: transparent;
+  }
+}
+/*animate support icon*/
+.icon.active #girl {
+  stroke-dasharray: 4593;
+  stroke-dashoffset: 4593;
+  animation: animate-girl 8s linear forwards;
+  animation-delay: 0.8s;
+}
+@keyframes animate-girl {
+  0% {
+    stroke-dashoffset: 4593;
+  }
+  50% {
+    stroke-dashoffset: 2700;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: black;
+    stroke: transparent;
+  }
+}
+/*animate payment icon*/
+.icon.active #pay1,
+#pay2,
+#pay3,
+#pay4,
+#pay5 {
+  stroke-dasharray: 1096;
+  stroke-dashoffset: 1096;
+  animation: animate-pay1 14s linear forwards;
+  animation-delay: 0.8s;
+}
+@keyframes animate-pay1 {
+  0% {
+    stroke-dashoffset: 1096;
+  }
+  50% {
+    stroke-dashoffset: 546;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: black;
+    stroke: transparent;
+  }
+}

@@ -1,0 +1,290 @@
+/* ----------- MEDIA QUERIES ----------  */
+
+/* 992 - 1200 px*/
+
+@media screen and (max-width: 1200px) {
+}
+
+/* 768 - 992 px*/
+@media screen and (max-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 720px;
+  }
+  .offer__alert {
+    max-width: 140px;
+    font-size: 12px;
+    right: -160px;
+    padding: 4px 0 4px 10px;
+  }
+  .offer__digits {
+    font-size: 100px;
+    margin-left: 10px;
+  }
+  .offer__title {
+    font-size: 54px;
+  }
+  .offer__text {
+    font-size: 24px;
+  }
+  .prize__amount {
+    font-size: 32px;
+  }
+  .prize__awaits {
+    margin-left: 14px;
+  }
+  .player {
+    width: 70%;
+    right: 50px;
+  }
+  .ball {
+    width: 30%;
+    top: 130px;
+    left: 100px;
+  }
+  .palm2 {
+    top: 880px;
+  }
+  .btn {
+    font-size: 28px;
+  }
+  .form__cell {
+    width: 280px;
+  }
+  .palm {
+    width: 40%;
+    left: -180px;
+  }
+  .palm2 {
+    width: 40%;
+    right: -150px;
+  }
+  .clouds2 {
+    width: 50%;
+    right: -50px;
+    top: 250px;
+  }
+  .line2 {
+    left: -100px;
+  }
+  .pingtree {
+    width: 30%;
+    right: 0;
+  }
+  .line {
+    width: 50%;
+    left: -250px;
+  }
+}
+
+/* 576 - 768 px*/
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 520px;
+  }
+
+  .offer__alert {
+    display: none;
+  }
+  .offer {
+    text-align: center;
+  }
+  .main {
+    justify-content: center;
+  }
+  .images {
+    display: none;
+  }
+  .prize {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+  .prize__amount {
+    font-size: 28px;
+  }
+  .prize__upto {
+    margin-right: 0;
+    margin-left: -20px;
+    font-size: 20px;
+  }
+  .prize__awaits {
+    margin-left: 0;
+    margin-right: 0px;
+    font-size: 20px;
+  }
+  .arrows_awaits {
+    margin-left: 0;
+    padding-right: 12px;
+    padding-top: 5px;
+  }
+  .btn {
+    font-size: 22px;
+    width: 90%;
+    padding: 12px 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .registration {
+    flex-direction: column;
+    align-items: center;
+  }
+  .registration__item {
+    margin-bottom: 60px;
+  }
+  .registration__arrows {
+    display: none;
+  }
+  .registration__title {
+    font-size: 24px;
+  }
+  .registration__item {
+    text-align: center;
+  }
+  .registration__item_first {
+    margin-left: 0px;
+  }
+  .registration__icon_first {
+    left: 24px;
+  }
+  .registration__icon_deposit {
+    left: 20px;
+  }
+  .registration__item_deposit {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .palm {
+    top: 360px;
+  }
+  .palm2 {
+    right: -280px;
+  }
+  .offer-list {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .offer-list__item {
+    margin-bottom: 30px;
+  }
+  .offer-list__item:nth-child(even) {
+    margin-top: 0px;
+  }
+  .form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .form__btn {
+    width: 100%;
+  }
+  .form-title {
+    margin-left: 114px;
+    margin-right: 0;
+  }
+  .form__cell {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .form-control {
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+  }
+  .partners {
+    flex-wrap: wrap;
+  }
+  .copyright {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+  .palm {
+    width: 50%;
+    left: -120px;
+  }
+  .palm2 {
+    width: 50%;
+    right: -100px;
+  }
+  .clouds2 {
+    width: 50%;
+    right: -50px;
+    top: 250px;
+  }
+  .line2 {
+    left: -100px;
+  }
+  .pingtree {
+    width: 30%;
+    right: 0;
+  }
+  .line {
+    width: 50%;
+    left: -100px;
+  }
+}
+
+/* 320 - 576 px*/
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+  .offer__title {
+    font-size: 30px;
+  }
+  .offer__digits {
+    font-size: 60px;
+  }
+  .offer__text {
+    font-size: 18px;
+  }
+  .prize {
+    max-width: 200px;
+  }
+  .prize .arrow {
+    height: 14px;
+  }
+  .prize__upto {
+    margin-left: -6px;
+    font-size: 14px;
+    padding: 3px 8px;
+  }
+  .prize__amount {
+    font-size: 18px;
+    padding: 6px 14px;
+  }
+  .prize__awaits {
+    font-size: 14px;
+    padding: 3px 8px;
+  }
+
+  .form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .form__btn {
+    width: 100%;
+  }
+
+  .form__cell {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .form-title {
+    margin-left: 20%;
+  }
+
+  .btn {
+    font-size: 20px;
+  }
+}
