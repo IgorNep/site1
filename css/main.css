@@ -99,10 +99,10 @@ body {
   animation-delay: 2s;
 }
 .preload__arrows {
-  animation: hidePreload 700ms linear forwards;
+  animation: hidePreload 1.5s linear forwards;
   opacity: 1;
   animation-iteration-count: 1;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 /*header section*/
 header {
