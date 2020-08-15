@@ -1,6 +1,7 @@
 const arrows = document.querySelectorAll(".arrow");
 const arrowsAlert = document.querySelectorAll(".arrow-alert");
 const arrowsReg = document.querySelectorAll(".arrow-reg");
+const arrowsPreload = document.querySelectorAll(".arrow-preload");
 
 class AddActive {
   constructor(arr, speed) {
@@ -32,7 +33,7 @@ class AddActive {
 const arrow1 = new AddActive(arrows, 200);
 const arrow2 = new AddActive(arrowsAlert, 300);
 const arrow3 = new AddActive(arrowsReg, 300);
-
+const arrow4 = new AddActive(arrowsPreload, 100);
 //button to go up to header
 const btnHome = document.getElementById("btn-up");
 
